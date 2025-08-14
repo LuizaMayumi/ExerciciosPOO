@@ -53,15 +53,26 @@ public class Main {
 
 
 //        4
-        ContaBancaria contaBancaria1 = new ContaBancaria();
-        contaBancaria1.nomeTitular = "Luiza";
-        contaBancaria1.saldo = 100;
+//        ContaBancaria contaBancaria1 = new ContaBancaria();
+//        contaBancaria1.nomeTitular = "Luiza";
+//        contaBancaria1.saldo = 100;
+//
+//        contaBancaria1.depositar(50);
+//        contaBancaria1.sacar(200);
+//        contaBancaria1.sacar(125);
+//        contaBancaria1.depositar(25);
+//
+//        System.out.println("Saldo final: " + contaBancaria1.saldo);
 
-        contaBancaria1.depositar(50);
-        contaBancaria1.sacar(200);
-        contaBancaria1.sacar(125);
-        contaBancaria1.depositar(25);
+//        5
+        Produto prod1 = new Produto();
+        prod1.marca = "Thermos";
+        prod1.nome = "Garrafa termica";
+        prod1.preco = 119.90;
 
-        System.out.println("Saldo final: " + contaBancaria1.saldo);
+        prod1.adicionarEstoque(4);
+        prod1.registrarVenda(6);
+        prod1.adicionarEstoque(4);
+        prod1.registrarVenda(2);
     }
 }
