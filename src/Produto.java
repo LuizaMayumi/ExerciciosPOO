@@ -7,7 +7,14 @@ public class Produto {
     public int unidade;
     public int estoque;
 
-//    Metodo
+//    Metodo CONSTRUTOR
+    public Produto(String nome, double preco, String marca){
+        this.nome = nome;
+        this.preco = preco;
+        this.marca = marca;
+    }
+
+//        Metodo
 //    STATIC nao usa POO, normalmente sera utilizado so na main
     public void mostrarInformacoes() {
         System.out.println("Nome: " + nome);

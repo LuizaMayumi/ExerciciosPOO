@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
+//       Sem construtor
 //        Produto prod1 = new Produto();
 //        prod1.marca = "Thermos";
 //        prod1.nome = "Garrafa termica";
@@ -8,6 +9,10 @@ public class Main {
 //        prod1.tamanho = 250;
 //        prod1.preco = 119.90;
 //
+//        prod1.mostrarInformacoes();
+
+//       Com construtor
+//        Produto prod1 = new Produto("Garrafa termica", 250, "Thermos");
 //        prod1.mostrarInformacoes();
 
 //        Carro meuCarro = new Carro(); //instanciar objeto
