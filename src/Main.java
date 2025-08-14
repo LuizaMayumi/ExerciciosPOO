@@ -65,14 +65,26 @@ public class Main {
 //        System.out.println("Saldo final: " + contaBancaria1.saldo);
 
 //        5
-        Produto prod1 = new Produto();
-        prod1.marca = "Thermos";
-        prod1.nome = "Garrafa termica";
-        prod1.preco = 119.90;
+//        Produto prod1 = new Produto();
+//        prod1.marca = "Thermos";
+//        prod1.nome = "Garrafa termica";
+//        prod1.preco = 119.90;
+//
+//        prod1.adicionarEstoque(4);
+//        prod1.registrarVenda(6);
+//        prod1.adicionarEstoque(4);
+//        prod1.registrarVenda(2);
 
-        prod1.adicionarEstoque(4);
-        prod1.registrarVenda(6);
-        prod1.adicionarEstoque(4);
-        prod1.registrarVenda(2);
+//        6
+        PersonagemJogo personagem1 = new PersonagemJogo();
+        personagem1.nome = "Teste";
+        personagem1.nivel = 1;
+        personagem1.pontosVida = 100;
+
+        personagem1.receberDano(30);
+        personagem1.subirNivel();
+        personagem1.receberDano(90);
+
+        personagem1.exibirStatus();
     }
 }
