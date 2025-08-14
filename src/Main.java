@@ -31,6 +31,7 @@ public class Main {
 
 
 //        1
+//       Sem construtor
 //        Musica minhaMusica = new Musica();
 //        minhaMusica.titulo = "Bohemian Rhapsody";
 //        minhaMusica.artista = "Queen";
@@ -39,13 +40,23 @@ public class Main {
 //        System.out.println("Tocando agora: " + minhaMusica.titulo);
 //        System.out.println("Artista: " + minhaMusica.artista);
 
+//       Com construtor
+//        Musica minhaMusica = new Musica("Bohemian Rhapsody","Queen", 355);
+//        minhaMusica.exibirFichaTecnica();
+
 //        2
+//       Sem construtor
 //        Carro meuCarro = new Carro(); //instanciar objeto
 //        meuCarro.marca = "Volkswagen";
 //        meuCarro.modelo = "Polo";
 //        meuCarro.descricao = "Preto - 2025";
 
+//       Com construtor
+//        Carro meuCarro = new Carro("Volkswagen", "Polo","Preto - 2025" );
+//        meuCarro.mostrarInformacoes();
+
 //        3
+//       Sem construtor
 //        Aluno aluno1 = new Aluno();
 //        aluno1.nota = 6.7;
 //        aluno1.nome = "Teste 1";
@@ -56,7 +67,10 @@ public class Main {
 //        aluno2.nome = "Teste 2";
 //        aluno2.verificarStatus();
 
-
+//       Com construtor
+//        Aluno aluno1 = new Aluno("Teste 1", 6.7);
+//        aluno1.verificarStatus();
+        
 //        4
 //        ContaBancaria contaBancaria1 = new ContaBancaria();
 //        contaBancaria1.nomeTitular = "Luiza";
