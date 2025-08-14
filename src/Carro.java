@@ -1,7 +1,7 @@
 public class Carro {
-    String descricao;
-    String marca;
-    String modelo;
+    public String descricao;
+    public String marca;
+    public String modelo;
 
     public void mostrarInformacoes() {
         System.out.println("Descricao: " + descricao);

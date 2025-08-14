@@ -1,6 +1,6 @@
 public class Aluno {
-    String nome;
-    double nota;
+    public String nome;
+    public double nota;
 
     public void verificarStatus() {
         if (nota >= 7){

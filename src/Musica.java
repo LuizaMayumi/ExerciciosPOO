@@ -1,6 +1,6 @@
 public class Musica {
-    String titulo;
-    String artista;
-    int duracao;
+    public String titulo;
+    public String artista;
+    public int duracao;
 
 }

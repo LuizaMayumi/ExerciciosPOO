@@ -76,15 +76,15 @@ public class Main {
 //        prod1.registrarVenda(2);
 
 //        6
-        PersonagemJogo personagem1 = new PersonagemJogo();
-        personagem1.nome = "Teste";
-        personagem1.nivel = 1;
-        personagem1.pontosVida = 100;
-
-        personagem1.receberDano(30);
-        personagem1.subirNivel();
-        personagem1.receberDano(90);
-
-        personagem1.exibirStatus();
+//        PersonagemJogo personagem1 = new PersonagemJogo();
+//        personagem1.nome = "Teste";
+//        personagem1.nivel = 1;
+//        personagem1.pontosVida = 100;
+//
+//        personagem1.receberDano(30);
+//        personagem1.subirNivel();
+//        personagem1.receberDano(90);
+//
+//        personagem1.exibirStatus();
     }
 }

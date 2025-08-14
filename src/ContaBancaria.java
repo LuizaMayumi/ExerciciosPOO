@@ -1,6 +1,6 @@
 public class ContaBancaria {
-    String nomeTitular;
-    double saldo;
+    public String nomeTitular;
+    public double saldo;
 
     public void depositar(double valor) {
         saldo += valor;

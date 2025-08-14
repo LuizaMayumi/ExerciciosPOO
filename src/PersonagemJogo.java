@@ -1,7 +1,7 @@
 public class PersonagemJogo {
-    String nome;
-    int nivel;
-    int pontosVida;
+    public String nome;
+    public int nivel;
+    public int pontosVida;
 
     public void receberDano(int dano){
         pontosVida -= dano;
