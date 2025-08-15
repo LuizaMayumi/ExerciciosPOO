@@ -70,18 +70,17 @@ public class Main {
 //       Com construtor
 //        Aluno aluno1 = new Aluno("Teste 1", 6.7);
 //        aluno1.verificarStatus();
-        
+
 //        4
 //        ContaBancaria contaBancaria1 = new ContaBancaria();
 //        contaBancaria1.nomeTitular = "Luiza";
-//        contaBancaria1.saldo = 100;
 //
 //        contaBancaria1.depositar(50);
 //        contaBancaria1.sacar(200);
 //        contaBancaria1.sacar(125);
 //        contaBancaria1.depositar(25);
 //
-//        System.out.println("Saldo final: " + contaBancaria1.saldo);
+//        contaBancaria1.getSaldo();
 
 //        5
 //        Produto prod1 = new Produto();
@@ -94,16 +93,25 @@ public class Main {
 //        prod1.adicionarEstoque(4);
 //        prod1.registrarVenda(2);
 
+//        Com construtor e encapsulado
+//        Produto prod1 = new Produto("Garrafa termica", 250, "Thermos");
+//        prod1.mostrarInformacoes();
+//
+//        prod1.setPreco(50.99);
+//        prod1.adicionarEstoque(4);
+//        prod1.getEstoque();
+//        prod1.getPreco();
+
 //        6
-//        PersonagemJogo personagem1 = new PersonagemJogo();
-//        personagem1.nome = "Teste";
-//        personagem1.nivel = 1;
-//        personagem1.pontosVida = 100;
-//
-//        personagem1.receberDano(30);
-//        personagem1.subirNivel();
-//        personagem1.receberDano(90);
-//
-//        personagem1.exibirStatus();
+        PersonagemJogo personagem1 = new PersonagemJogo();
+        personagem1.nome = "Teste";
+        personagem1.nivel = 1;
+        personagem1.pontosVida = 100;
+
+        personagem1.receberDano(30);
+        personagem1.subirNivel();
+        personagem1.receberDano(90);
+
+        personagem1.exibirStatus();
     }
 }

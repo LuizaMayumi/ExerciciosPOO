@@ -1,6 +1,6 @@
 public class ContaBancaria {
     public String nomeTitular;
-    public double saldo;
+    private double saldo;
 
     public void depositar(double valor) {
         saldo += valor;
@@ -14,5 +14,9 @@ public class ContaBancaria {
         } else {
             System.out.println("Sem saldo");
         }
+    }
+
+    public void getSaldo() {
+        System.out.println("Saldo: " + saldo);
     }
 }
